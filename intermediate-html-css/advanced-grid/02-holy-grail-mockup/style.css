@@ -32,8 +32,12 @@ ul {
   background-color: #393f4d;
   grid-area: header;
   display: grid;
-  grid-template: 1fr / 1fr 1fr;
+  grid-template: 1fr / 1fr 2fr;
   align-items: center;
+}
+
+.logo {
+  justify-self: start;
 }
 
 .menu > ul{
